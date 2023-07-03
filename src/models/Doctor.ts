@@ -6,6 +6,7 @@ type DayHours = {
 }
 
 interface IDoctor {
+  _id: string | Schema.Types.ObjectId;
   name: string;
   phone: string;
   speciality: string;
